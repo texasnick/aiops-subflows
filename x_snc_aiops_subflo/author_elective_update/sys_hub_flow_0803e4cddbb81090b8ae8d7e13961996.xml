@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Windows Admin Subflows">60f2a4cddbb81090b8ae8d7e13961956</category>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Run a Powershell command to get running processes on a server and put the details into work notes of the alert.</description>
+        <internal_name>get_windows_processes</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Windows Processes</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-13 19:03:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0803e4cddbb81090b8ae8d7e13961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Windows Processes</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name>sys_hub_flow_0803e4cddbb81090b8ae8d7e13961996</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:03:33</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=0803e4cddbb81090b8ae8d7e13961996"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=0803e4cddbb81090b8ae8d7e13961996^sys_idNOT INc003e4cddbb81090b8ae8d7e13961999"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>0803e4cddbb81090b8ae8d7e13961996</id>
+        <name>Get Windows Processes</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-13 19:03:33</sys_created_on>
+        <sys_id>c003e4cddbb81090b8ae8d7e13961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:03:33</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</application>
+        <file_path/>
+        <instance_id>9efd329f9b8cd3447ac36b8af359fffe</instance_id>
+        <instance_name>nryansc03</instance_name>
+        <name>sys_hub_flow_0803e4cddbb81090b8ae8d7e13961996</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category display_value="Windows Admin Subflows">60f2a4cddbb81090b8ae8d7e13961956</category><compiler_build/><copied_from/><copied_from_name/><description>Run a Powershell command to get running processes on a server and put the details into work notes of the alert.</description><internal_name>get_windows_processes</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>Get Windows Processes</name><natlang/><outputs/><remote_trigger_id/><run_as>user</run_as><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>nick.ryan</sys_created_by><sys_created_on>2020-05-13 19:03:33</sys_created_on><sys_domain>global</sys_domain><sys_id>0803e4cddbb81090b8ae8d7e13961996</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get Windows Processes</sys_name><sys_overrides/><sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package><sys_policy/><sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope><sys_update_name>sys_hub_flow_0803e4cddbb81090b8ae8d7e13961996</sys_update_name><sys_updated_by>nick.ryan</sys_updated_by><sys_updated_on>2020-05-13 19:03:33</sys_updated_on><type>subflow</type></sys_hub_flow><sys_variable_value action="delete_multiple" query="document_key=0803e4cddbb81090b8ae8d7e13961996"/><sys_flow_cat_variable_model action="delete_multiple" query="id=0803e4cddbb81090b8ae8d7e13961996^sys_idNOT INc003e4cddbb81090b8ae8d7e13961999"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>0803e4cddbb81090b8ae8d7e13961996</id><name>Get Windows Processes</name><sys_class_name>sys_flow_cat_variable_model</sys_class_name><sys_created_by>nick.ryan</sys_created_by><sys_created_on>2020-05-13 19:03:33</sys_created_on><sys_id>c003e4cddbb81090b8ae8d7e13961999</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package/><sys_policy/><sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope><sys_update_name/><sys_updated_by>nick.ryan</sys_updated_by><sys_updated_on>2020-05-13 19:03:33</sys_updated_on></sys_flow_cat_variable_model></record_update>]]></payload>
+        <payload_hash>-791989092</payload_hash>
+        <record_name>Get Windows Processes</record_name>
+        <reverted_from/>
+        <source>ef62688ddbb81090b8ae8d7e13961963</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-13 19:03:33</sys_created_on>
+        <sys_id>d803e4cddbb81090b8ae8d7e1396199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1720f6ba99c0000001</sys_recorded_at>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:03:33</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>d003e4cd35b81090116aa74bc3a17a9d</update_guid>
+        <update_guid_history>d003e4cd35b81090116aa74bc3a17a9d:-791989092</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-13 19:04:03</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>045dcf2b97cd447e82c0a787e9540511</sys_id>
+        <sys_metadata>0803e4cddbb81090b8ae8d7e13961996</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Windows Processes</sys_name>
+        <sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_scope_delete display_value="">4df356a359f44180b31ef47d81a82c04</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_0803e4cddbb81090b8ae8d7e13961996</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_0803e4cddbb81090b8ae8d7e13961996">d803e4cddbb81090b8ae8d7e1396199d</sys_update_version>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:04:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

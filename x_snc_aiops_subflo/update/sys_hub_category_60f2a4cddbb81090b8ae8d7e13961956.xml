@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_category">
+    <sys_hub_category action="INSERT_OR_UPDATE">
+        <name>Windows Admin Subflows</name>
+        <order>100</order>
+        <sys_class_name>sys_hub_category</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-13 19:03:28</sys_created_on>
+        <sys_id>60f2a4cddbb81090b8ae8d7e13961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Windows Admin Subflows</sys_name>
+        <sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name>sys_hub_category_60f2a4cddbb81090b8ae8d7e13961956</sys_update_name>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:03:28</sys_updated_on>
+    </sys_hub_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=60f2a4cddbb81090b8ae8d7e13961956"/>
+</record_update>

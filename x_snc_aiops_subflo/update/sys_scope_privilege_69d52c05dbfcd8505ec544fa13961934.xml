@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>write</operation>
+        <source_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-05-13 19:15:56</sys_created_on>
+        <sys_id>69d52c05dbfcd8505ec544fa13961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>em_alert</sys_name>
+        <sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name>sys_scope_privilege_69d52c05dbfcd8505ec544fa13961934</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-05-13 19:15:56</sys_updated_on>
+        <target_name>em_alert</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+</record_update>
