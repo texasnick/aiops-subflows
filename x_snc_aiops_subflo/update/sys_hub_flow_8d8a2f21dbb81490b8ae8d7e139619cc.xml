@@ -11,7 +11,7 @@
         <copied_from_name>Start Linux Service</copied_from_name>
         <description>A Subflow with the required parameters for an Alert Management Rule.</description>
         <internal_name>restart_linux_service</internal_name>
-        <label_cache>[{"name":"subflow.ah_alertgr.resource","label":"Input➛alertGR➛Resource","reference":"","reference_display":"Resource","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"resource"},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"4cd93066-0e35-4b23-9d53-048c03bea4bd"}},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"4a8ab61e-0b5c-48ef-86f1-a57df8ba7504"}},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"a134142c-5893-4573-8564-0dba824c6f4f"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4cd93066-0e35-4b23-9d53-048c03bea4bd"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4a8ab61e-0b5c-48ef-86f1-a57df8ba7504"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a134142c-5893-4573-8564-0dba824c6f4f"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2906df15-f4c5-487f-a766-63c22ff30f87"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.errcode","label":"1➛errCode","reference_display":"errCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1ca6a8d4-1a22-45f4-a5b4-4cb77f7d7bb5"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3d05088c-f6fe-4236-b205-5902b4fcba62"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f69cb2c4-37a1-47e1-9b6e-d8e66aaf85b0"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2906df15-f4c5-487f-a766-63c22ff30f87"}},{"name":"8aa31c85-36ab-4e78-9475-24c8eebf833e.table_name","label":"3.1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8aa31c85-36ab-4e78-9475-24c8eebf833e.record","label":"3.1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf979491-2f84-4b0b-b413-4a88da423793.table_name","label":"2.1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf979491-2f84-4b0b-b413-4a88da423793.record","label":"2.1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ah_alertgr.cmdb_ci.ip_address","label":"Input➛alertGR➛Configuration item➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"ip_address"},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.errcode","label":"1➛errCode","reference_display":"errCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1ca6a8d4-1a22-45f4-a5b4-4cb77f7d7bb5"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3d05088c-f6fe-4236-b205-5902b4fcba62"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f69cb2c4-37a1-47e1-9b6e-d8e66aaf85b0"}},{"name":"subflow.ah_alertrulename","label":"Input➛alertRuleName","type":"string","base_type":"string"},{"name":"subflow.ah_alertruleid","label":"Input➛alertRuleId","type":"string","base_type":"string"},{"name":"subflow.ah_alertgr","label":"Input➛alertGR","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","column_name":"","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"reference","uiUniqueId":"c707d0f8-4dfa-44f8-8289-0200eec75f81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.ah_executionid","label":"Input➛executionId","type":"string","base_type":"string"},{"name":"subflow.ah_username","label":"Input➛userName","type":"string","base_type":"string"},{"name":"subflow.ah_userdisplayname","label":"Input➛userDisplayName","type":"string","base_type":"string"}]</label_cache>
+        <label_cache>[{"name":"c2548329-d053-4a3f-93d8-88d4434827ce.table_name","label":"1.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c2548329-d053-4a3f-93d8-88d4434827ce.record","label":"1.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ah_alertgr.resource","label":"Input➛alertGR➛Resource","reference":"","reference_display":"Resource","type":"string","base_type":"string","parent_table_name":"em_alert","column_name":"resource"},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.error","label":"2➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4cd93066-0e35-4b23-9d53-048c03bea4bd"}},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.formatresults","label":"2➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4a8ab61e-0b5c-48ef-86f1-a57df8ba7504"}},{"name":"82e5fcaa-7fe5-461a-91ba-02ec6c90b794.results","label":"2➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a134142c-5893-4573-8564-0dba824c6f4f"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4cd93066-0e35-4b23-9d53-048c03bea4bd"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"4a8ab61e-0b5c-48ef-86f1-a57df8ba7504"}},{"name":"7aacca0e-b769-4bfb-9a84-d84104167dd6.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"a134142c-5893-4573-8564-0dba824c6f4f"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2906df15-f4c5-487f-a766-63c22ff30f87"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.errcode","label":"1➛errCode","reference_display":"errCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1ca6a8d4-1a22-45f4-a5b4-4cb77f7d7bb5"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3d05088c-f6fe-4236-b205-5902b4fcba62"}},{"name":"d0f7768d-db5e-46e3-8c7a-780aef4f741c.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f69cb2c4-37a1-47e1-9b6e-d8e66aaf85b0"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.formatresults","label":"1➛formatResults","reference_display":"formatResults","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"2906df15-f4c5-487f-a766-63c22ff30f87"}},{"name":"8aa31c85-36ab-4e78-9475-24c8eebf833e.table_name","label":"4.1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8aa31c85-36ab-4e78-9475-24c8eebf833e.record","label":"4.1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf979491-2f84-4b0b-b413-4a88da423793.table_name","label":"3.1➛Alert Table","reference":"em_alert","reference_display":"Alert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"cf979491-2f84-4b0b-b413-4a88da423793.record","label":"3.1➛Alert Record","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.ah_alertgr.cmdb_ci.ip_address","label":"Input➛alertGR➛Configuration item➛IP Address","reference":"","reference_display":"IP Address","type":"string","base_type":"string","parent_table_name":"cmdb_ci","column_name":"ip_address"},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.errcode","label":"1➛errCode","reference_display":"errCode","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"1ca6a8d4-1a22-45f4-a5b4-4cb77f7d7bb5"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.error","label":"1➛error","reference_display":"error","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"3d05088c-f6fe-4236-b205-5902b4fcba62"}},{"name":"7558d4c8-5b2b-4e54-b056-4dc43228fac3.results","label":"1➛results","reference_display":"results","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"f69cb2c4-37a1-47e1-9b6e-d8e66aaf85b0"}},{"name":"subflow.ah_alertrulename","label":"Input➛alertRuleName","type":"string","base_type":"string"},{"name":"subflow.ah_alertruleid","label":"Input➛alertRuleId","type":"string","base_type":"string"},{"name":"subflow.ah_alertgr","label":"Input➛alertGR","reference":"em_alert","reference_display":"Alert","type":"reference","base_type":"reference","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c707d0f8-4dfa-44f8-8289-0200eec75f81","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.ah_executionid","label":"Input➛executionId","type":"string","base_type":"string"},{"name":"subflow.ah_username","label":"Input➛userName","type":"string","base_type":"string"},{"name":"subflow.ah_userdisplayname","label":"Input➛userDisplayName","type":"string","base_type":"string"}]</label_cache>
         <latest_snapshot>7e9a2361dbb81490b8ae8d7e139619f7</latest_snapshot>
         <master_snapshot>7e9a2361dbb81490b8ae8d7e139619f7</master_snapshot>
         <name>Restart Linux Service</name>
@@ -28,7 +28,7 @@
         <sys_created_on>2020-05-15 22:52:11</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>8d8a2f21dbb81490b8ae8d7e139619cc</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Restart Linux Service</sys_name>
         <sys_overrides/>
         <sys_package display_value="AIOps Subflows" source="x_snc_aiops_subflo">2b62688ddbb81090b8ae8d7e13961961</sys_package>
@@ -36,11 +36,83 @@
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name>sys_hub_flow_8d8a2f21dbb81490b8ae8d7e139619cc</sys_update_name>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=8d8a2f21dbb81490b8ae8d7e139619cc"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN158a6f21dbb81490b8ae8d7e13961919,1d8a6f21dbb81490b8ae8d7e1396190d,598a6f21dbb81490b8ae8d7e13961915,9d8a6f21dbb81490b8ae8d7e13961911,dd8a2f21dbb81490b8ae8d7e139619fd"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN0efb58a5db41d810b8ae8d7e1396195b,158a6f21dbb81490b8ae8d7e13961919,1d8a6f21dbb81490b8ae8d7e1396190d,598a6f21dbb81490b8ae8d7e13961915,8afb58a5db41d810b8ae8d7e13961959,9d8a6f21dbb81490b8ae8d7e13961911,c6fb58a5db41d810b8ae8d7e13961957,dd8a2f21dbb81490b8ae8d7e139619fd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4afb58a5db41d810b8ae8d7e1396195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>0efb58a5db41d810b8ae8d7e1396195b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0efb58a5db41d810b8ae8d7e1396195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0efb58a5db41d810b8ae8d7e1396195b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>86fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>Resource is Empty</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0efb58a5db41d810b8ae8d7e1396195b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>0efb58a5db41d810b8ae8d7e1396195b</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>06fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.ah_alertgr.resource}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>0efb58a5db41d810b8ae8d7e1396195b</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>42fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -50,20 +122,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>3.1</order>
+        <order>4.1</order>
         <parent_ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>158a6f21dbb81490b8ae8d7e13961919</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>8aa31c85-36ab-4e78-9475-24c8eebf833e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=158a6f21dbb81490b8ae8d7e13961919"/>
@@ -129,7 +201,7 @@
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -137,14 +209,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:12</sys_created_on>
         <sys_id>1d8a6f21dbb81490b8ae8d7e1396190d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -159,20 +231,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>2.1</order>
+        <order>3.1</order>
         <parent_ui_id>2083ca50-e73f-4824-82ff-64a20db15713</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>598a6f21dbb81490b8ae8d7e13961915</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>cf979491-2f84-4b0b-b413-4a88da423793</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=598a6f21dbb81490b8ae8d7e13961915"/>
@@ -227,6 +299,38 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>work_notes={{82e5fcaa-7fe5-461a-91ba-02ec6c90b794.formatresults}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c6fb58a5db41d810b8ae8d7e13961959</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>8afb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>faa4d273-db66-4058-8799-438c744839c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8afb58a5db41d810b8ae8d7e13961959"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -236,20 +340,20 @@
         <compiled_snapshot>47affe25dbb41490b8ae8d7e139619e7</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>9d8a6f21dbb81490b8ae8d7e13961911</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>82e5fcaa-7fe5-461a-91ba-02ec6c90b794</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9d8a6f21dbb81490b8ae8d7e13961911"/>
@@ -304,6 +408,97 @@
         <table>var__m_sys_hub_action_input_47affe25dbb41490b8ae8d7e139619e7</table>
         <value>{{subflow.ah_alertgr.resource}}</value>
     </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <order>1.1</order>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>c6fb58a5db41d810b8ae8d7e13961957</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>c2548329-d053-4a3f-93d8-88d4434827ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c6fb58a5db41d810b8ae8d7e13961957"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c6fb58a5db41d810b8ae8d7e13961957</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>02fb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>work_notes=Populate the "Resource" attribute with the service to restart</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c6fb58a5db41d810b8ae8d7e13961957</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>c2fb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>em_alert</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c6fb58a5db41d810b8ae8d7e13961957"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>cafb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ah_alertgr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>0afb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>8efb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">db346441dbf81090b8ae8d7e139619e3</block>
         <comment/>
@@ -316,7 +511,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -324,14 +519,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:12</sys_created_on>
         <sys_id>dd8a2f21dbb81490b8ae8d7e139619fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>2083ca50-e73f-4824-82ff-64a20db15713</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -880,7 +1075,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN158a6f21dbb81490b8ae8d7e13961919,598a6f21dbb81490b8ae8d7e13961915,9d8a6f21dbb81490b8ae8d7e13961911"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN158a6f21dbb81490b8ae8d7e13961919,598a6f21dbb81490b8ae8d7e13961915,9d8a6f21dbb81490b8ae8d7e13961911,c6fb58a5db41d810b8ae8d7e13961957"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -890,20 +1085,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>3.1</order>
+        <order>4.1</order>
         <parent_ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>158a6f21dbb81490b8ae8d7e13961919</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>8aa31c85-36ab-4e78-9475-24c8eebf833e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=158a6f21dbb81490b8ae8d7e13961919"/>
@@ -967,20 +1162,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>2.1</order>
+        <order>3.1</order>
         <parent_ui_id>2083ca50-e73f-4824-82ff-64a20db15713</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>598a6f21dbb81490b8ae8d7e13961915</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>cf979491-2f84-4b0b-b413-4a88da423793</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=598a6f21dbb81490b8ae8d7e13961915"/>
@@ -1044,20 +1239,20 @@
         <compiled_snapshot>47affe25dbb41490b8ae8d7e139619e7</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:13</sys_created_on>
         <sys_id>9d8a6f21dbb81490b8ae8d7e13961911</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>82e5fcaa-7fe5-461a-91ba-02ec6c90b794</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9d8a6f21dbb81490b8ae8d7e13961911"/>
@@ -1112,7 +1307,170 @@
         <table>var__m_sys_hub_action_input_47affe25dbb41490b8ae8d7e139619e7</table>
         <value>{{subflow.ah_alertgr.resource}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN1d8a6f21dbb81490b8ae8d7e1396190d,dd8a2f21dbb81490b8ae8d7e139619fd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <order>1.1</order>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>c6fb58a5db41d810b8ae8d7e13961957</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>c2548329-d053-4a3f-93d8-88d4434827ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c6fb58a5db41d810b8ae8d7e13961957"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c6fb58a5db41d810b8ae8d7e13961957</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>02fb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>work_notes=Populate the "Resource" attribute with the service to restart</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c6fb58a5db41d810b8ae8d7e13961957</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>c2fb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>em_alert</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c6fb58a5db41d810b8ae8d7e13961957"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>cafb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ah_alertgr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>0afb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>c6fb58a5db41d810b8ae8d7e13961957</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>8efb58a5db41d810b8ae8d7e13961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN0efb58a5db41d810b8ae8d7e1396195b,1d8a6f21dbb81490b8ae8d7e1396190d,8afb58a5db41d810b8ae8d7e13961959,dd8a2f21dbb81490b8ae8d7e139619fd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4afb58a5db41d810b8ae8d7e1396195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>0efb58a5db41d810b8ae8d7e1396195b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0efb58a5db41d810b8ae8d7e1396195b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0efb58a5db41d810b8ae8d7e1396195b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>86fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <value>Resource is Empty</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0efb58a5db41d810b8ae8d7e1396195b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>0efb58a5db41d810b8ae8d7e1396195b</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>06fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.ah_alertgr.resource}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>0efb58a5db41d810b8ae8d7e1396195b</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>42fb58a5db41d810b8ae8d7e1396195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:05:28</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">8444a441dbf81090b8ae8d7e13961943</block>
         <comment/>
@@ -1124,7 +1482,7 @@
         <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1132,19 +1490,51 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:12</sys_created_on>
         <sys_id>1d8a6f21dbb81490b8ae8d7e1396190d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
     <sys_variable_value action="delete_multiple" query="document_key=1d8a6f21dbb81490b8ae8d7e1396190d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c6fb58a5db41d810b8ae8d7e13961959</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:05:28</sys_created_on>
+        <sys_id>8afb58a5db41d810b8ae8d7e13961959</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
+        <ui_id>faa4d273-db66-4058-8799-438c744839c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8afb58a5db41d810b8ae8d7e13961959"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">db346441dbf81090b8ae8d7e139619e3</block>
         <comment/>
@@ -1157,7 +1547,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1165,14 +1555,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:12</sys_created_on>
         <sys_id>dd8a2f21dbb81490b8ae8d7e139619fd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:39</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:45</sys_updated_on>
         <ui_id>2083ca50-e73f-4824-82ff-64a20db15713</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1358,7 +1748,7 @@
     </sys_documentation>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=8d8a2f21dbb81490b8ae8d7e139619cc^sys_idNOT IN679a6361dbb81490b8ae8d7e139619ac"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@1d6ca60</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@13df538</plan>
         <plan_id display_value="Restart Linux Service">8d8a2f21dbb81490b8ae8d7e139619cc</plan_id>
         <snapshot>7e9a2361dbb81490b8ae8d7e139619f7</snapshot>
         <sys_class_name>sys_flow_subflow_plan</sys_class_name>
@@ -1366,7 +1756,7 @@
         <sys_created_on>2020-05-15 22:52:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>679a6361dbb81490b8ae8d7e139619ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1374,7 +1764,7 @@
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:38</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:44</sys_updated_on>
     </sys_flow_subflow_plan>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -1402,7 +1792,7 @@
         <sys_created_on>2020-05-15 22:52:35</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>7e9a2361dbb81490b8ae8d7e139619f7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1410,11 +1800,11 @@
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:35</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow_snapshot>
     <sys_variable_value action="delete_multiple" query="document_key=7e9a2361dbb81490b8ae8d7e139619f7"/>
-    <sys_hub_flow_component action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT IN179a6361dbb81490b8ae8d7e13961987,9b9a6361dbb81490b8ae8d7e13961982,d79a6361dbb81490b8ae8d7e13961979,d79a6361dbb81490b8ae8d7e1396197d,df9a6361dbb81490b8ae8d7e1396198a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT IN179a6361dbb81490b8ae8d7e13961987,404c10e5db41d810b8ae8d7e139619f6,804c10e5db41d810b8ae8d7e139619ed,9b9a6361dbb81490b8ae8d7e13961982,c44c10e5db41d810b8ae8d7e139619f3,d79a6361dbb81490b8ae8d7e13961979,d79a6361dbb81490b8ae8d7e1396197d,df9a6361dbb81490b8ae8d7e1396198a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1424,20 +1814,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>2.1</order>
+        <order>3.1</order>
         <parent_ui_id>2083ca50-e73f-4824-82ff-64a20db15713</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>179a6361dbb81490b8ae8d7e13961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>cf979491-2f84-4b0b-b413-4a88da423793</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=179a6361dbb81490b8ae8d7e13961987"/>
@@ -1492,6 +1882,169 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>work_notes={{82e5fcaa-7fe5-461a-91ba-02ec6c90b794.formatresults}}</value>
     </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4afb58a5db41d810b8ae8d7e1396195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>404c10e5db41d810b8ae8d7e139619f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=404c10e5db41d810b8ae8d7e139619f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>404c10e5db41d810b8ae8d7e139619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>404c10e5db41d810b8ae8d7e139619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <value>Resource is Empty</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=404c10e5db41d810b8ae8d7e139619f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>404c10e5db41d810b8ae8d7e139619f6</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>cc4c10e5db41d810b8ae8d7e139619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.ah_alertgr.resource}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>404c10e5db41d810b8ae8d7e139619f6</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>0c4c10e5db41d810b8ae8d7e139619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <order>1.1</order>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>804c10e5db41d810b8ae8d7e139619ed</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>c2548329-d053-4a3f-93d8-88d4434827ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=804c10e5db41d810b8ae8d7e139619ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>804c10e5db41d810b8ae8d7e139619ed</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>8c4c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <value>em_alert</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>804c10e5db41d810b8ae8d7e139619ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>c84c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <value>work_notes=Populate the "Resource" attribute with the service to restart</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=804c10e5db41d810b8ae8d7e139619ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>844c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ah_alertgr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>c04c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>484c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -1501,20 +2054,20 @@
         <compiled_snapshot>47affe25dbb41490b8ae8d7e139619e7</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>1</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>9b9a6361dbb81490b8ae8d7e13961982</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>82e5fcaa-7fe5-461a-91ba-02ec6c90b794</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b9a6361dbb81490b8ae8d7e13961982"/>
@@ -1570,6 +2123,38 @@
         <value>{{subflow.ah_alertgr.resource}}</value>
     </sys_element_mapping>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c6fb58a5db41d810b8ae8d7e13961959</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>c44c10e5db41d810b8ae8d7e139619f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>faa4d273-db66-4058-8799-438c744839c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c44c10e5db41d810b8ae8d7e139619f3"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">db346441dbf81090b8ae8d7e139619e3</block>
         <comment/>
         <connected_to/>
@@ -1581,7 +2166,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1589,14 +2174,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>d79a6361dbb81490b8ae8d7e13961979</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>2083ca50-e73f-4824-82ff-64a20db15713</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1652,7 +2237,7 @@
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -1660,14 +2245,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>d79a6361dbb81490b8ae8d7e1396197d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1682,20 +2267,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>3.1</order>
+        <order>4.1</order>
         <parent_ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>df9a6361dbb81490b8ae8d7e1396198a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>8aa31c85-36ab-4e78-9475-24c8eebf833e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=df9a6361dbb81490b8ae8d7e1396198a"/>
@@ -2254,7 +2839,7 @@
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
-    <sys_hub_action_instance action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT IN179a6361dbb81490b8ae8d7e13961987,9b9a6361dbb81490b8ae8d7e13961982,df9a6361dbb81490b8ae8d7e1396198a"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT IN179a6361dbb81490b8ae8d7e13961987,804c10e5db41d810b8ae8d7e139619ed,9b9a6361dbb81490b8ae8d7e13961982,df9a6361dbb81490b8ae8d7e1396198a"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
@@ -2264,20 +2849,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>2.1</order>
+        <order>3.1</order>
         <parent_ui_id>2083ca50-e73f-4824-82ff-64a20db15713</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>179a6361dbb81490b8ae8d7e13961987</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>cf979491-2f84-4b0b-b413-4a88da423793</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=179a6361dbb81490b8ae8d7e13961987"/>
@@ -2335,26 +2920,117 @@
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_inputs/>
-        <action_type display_value="RHEL Stop/Start Services">47affe25dbb41490b8ae8d7e139619e7</action_type>
-        <action_type_parent display_value="RHEL Stop/Start Services">531dba21dbb41490b8ae8d7e139619c2</action_type_parent>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
-        <compiled_snapshot>47affe25dbb41490b8ae8d7e139619e7</compiled_snapshot>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>1</order>
-        <parent_ui_id/>
+        <order>1.1</order>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
-        <sys_created_on>2020-05-15 22:52:37</sys_created_on>
-        <sys_id>9b9a6361dbb81490b8ae8d7e13961982</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>804c10e5db41d810b8ae8d7e139619ed</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>c2548329-d053-4a3f-93d8-88d4434827ce</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=804c10e5db41d810b8ae8d7e139619ed"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>804c10e5db41d810b8ae8d7e139619ed</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>8c4c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <value>em_alert</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>804c10e5db41d810b8ae8d7e139619ed</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>c84c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <value>work_notes=Populate the "Resource" attribute with the service to restart</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=804c10e5db41d810b8ae8d7e139619ed"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>844c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{subflow.ah_alertgr}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>c04c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>804c10e5db41d810b8ae8d7e139619ed</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:42</sys_created_on>
+        <sys_id>484c10e5db41d810b8ae8d7e139619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:42</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="RHEL Stop/Start Services">47affe25dbb41490b8ae8d7e139619e7</action_type>
+        <action_type_parent display_value="RHEL Stop/Start Services">531dba21dbb41490b8ae8d7e139619c2</action_type_parent>
+        <comment/>
+        <compiled_snapshot>47affe25dbb41490b8ae8d7e139619e7</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-15 22:52:37</sys_created_on>
+        <sys_id>9b9a6361dbb81490b8ae8d7e13961982</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>82e5fcaa-7fe5-461a-91ba-02ec6c90b794</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=9b9a6361dbb81490b8ae8d7e13961982"/>
@@ -2418,20 +3094,20 @@
         <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
         <display_text/>
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
-        <order>3.1</order>
+        <order>4.1</order>
         <parent_ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>df9a6361dbb81490b8ae8d7e1396198a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>8aa31c85-36ab-4e78-9475-24c8eebf833e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=df9a6361dbb81490b8ae8d7e1396198a"/>
@@ -2486,7 +3162,111 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value>work_notes={{82e5fcaa-7fe5-461a-91ba-02ec6c90b794.error}}</value>
     </sys_element_mapping>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT INd79a6361dbb81490b8ae8d7e13961979,d79a6361dbb81490b8ae8d7e1396197d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7e9a2361dbb81490b8ae8d7e139619f7^sys_idNOT IN404c10e5db41d810b8ae8d7e139619f6,c44c10e5db41d810b8ae8d7e139619f3,d79a6361dbb81490b8ae8d7e13961979,d79a6361dbb81490b8ae8d7e1396197d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">4afb58a5db41d810b8ae8d7e1396195b</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>404c10e5db41d810b8ae8d7e139619f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=404c10e5db41d810b8ae8d7e139619f6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>404c10e5db41d810b8ae8d7e139619f6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>404c10e5db41d810b8ae8d7e139619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <value>Resource is Empty</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=404c10e5db41d810b8ae8d7e139619f6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>404c10e5db41d810b8ae8d7e139619f6</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>cc4c10e5db41d810b8ae8d7e139619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{subflow.ah_alertgr.resource}}=</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>404c10e5db41d810b8ae8d7e139619f6</id>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>0c4c10e5db41d810b8ae8d7e139619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c6fb58a5db41d810b8ae8d7e13961959</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>818f431a-82a1-438e-afcb-54ca3ea8846c</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>nick.ryan</sys_created_by>
+        <sys_created_on>2020-05-27 18:06:43</sys_created_on>
+        <sys_id>c44c10e5db41d810b8ae8d7e139619f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>nick.ryan</sys_updated_by>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
+        <ui_id>faa4d273-db66-4058-8799-438c744839c9</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c44c10e5db41d810b8ae8d7e139619f3"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
         <block display_value="">db346441dbf81090b8ae8d7e139619e3</block>
         <comment/>
@@ -2499,7 +3279,7 @@
         <inputs/>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>2</order>
+        <order>3</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2507,14 +3287,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>d79a6361dbb81490b8ae8d7e13961979</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>2083ca50-e73f-4824-82ff-64a20db15713</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2570,7 +3350,7 @@
         <flow display_value="Restart Linux Service">7e9a2361dbb81490b8ae8d7e139619f7</flow>
         <inputs/>
         <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
-        <order>3</order>
+        <order>4</order>
         <outputs_assigned/>
         <outputs_to_assign/>
         <parent_ui_id/>
@@ -2578,14 +3358,14 @@
         <sys_created_by>nick.ryan</sys_created_by>
         <sys_created_on>2020-05-15 22:52:37</sys_created_on>
         <sys_id>d79a6361dbb81490b8ae8d7e1396197d</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="AIOps Subflows">2b62688ddbb81090b8ae8d7e13961961</sys_scope>
         <sys_update_name/>
         <sys_updated_by>nick.ryan</sys_updated_by>
-        <sys_updated_on>2020-05-15 22:52:37</sys_updated_on>
+        <sys_updated_on>2020-05-27 18:06:43</sys_updated_on>
         <ui_id>3fd3f400-367e-4c14-8524-be60e6f32c9a</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
